@@ -1,0 +1,379 @@
+:root {
+  --primary-background-color: #f5f5f5;
+  --background-color: #ffffff;
+  --button-background-color: #f5f4fa;
+  --footer-background-color: #2f303a;
+  --text-color: #212121;
+  --text-active-color: #2196f3;
+  --text-title-color: #757575;
+  --active: #320242;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+  /*background-color: var(--background-color);*/
+}
+
+ul {
+  list-style: none;
+}
+/*Хедер*/
+
+.hader-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  /*height: 80px;*/
+  /*outline: 2px solid blue;*/
+}
+
+.hefder-list {
+  padding: 0;
+  margin: 0;
+}
+
+.header-page {
+  background-color: var(--background-color);
+}
+
+/*Логотип*/
+
+.text-web {
+  font-family: "Raleway";
+  /**font-style: normal;
+font-weight: 700;*/
+  font-size: 26px;
+  line-height: 1.1923;
+  letter-spacing: 0.03em;
+  color: var(--text-active-color);
+}
+
+/*Навiгацiя*/
+/*шрифт*/
+.header-link,
+.connect-link,
+.header-link-current {
+  /*font-style: normal;*/
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.02em;
+}
+/*колiр*/
+.header-link {
+  color: var(--text-color);
+}
+
+.header-nav .header-link.current {
+  color: var(--text-active-color);
+}
+
+/*пошта, телефон*/
+
+.connect-link {
+  color: var(--text-title-color);
+}
+
+.text-web,
+.header-link,
+.header-link-current,
+.connect-link,
+.address {
+  text-decoration: none;
+}
+
+/*Заголовок студiя*/
+
+.section-studio {
+/*  position: absolute;*/
+width: 1600px;
+/*height: 600px;*/
+/*padding: 0;
+margin: 0;*/
+/*outline: 2px solid blue;*/
+}
+
+.title {
+  /*font-style: normal;*/
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3636;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--background-color);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section {
+  background-color: var(--footer-background-color);
+}
+
+/*Прихований текст*/
+
+.text-shadov > span
+{display: none;}
+
+/*Переваги*/
+/* Заголовки 
+"Увага до деталей"
+"Пунктуальнiсть"
+"Планування"
+"Сучаснi технологii"*/
+
+  .sectoin-benefits {
+    width: 1170px;
+    /*outline: 2px solid blue;*/
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    tab-size: 0;*/
+  }
+
+.title-desc {
+  /*font-style: normal;
+font-weight: 700;*/
+  font-size: 14px;
+  line-height: 1.1482;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+}
+
+/*Текст абзацiв*/
+
+.description {
+  /*font-style: normal;
+font-weight: 400;*/
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+/*Заголовки 
+"Чим ми займаэмось"*/
+
+.section-picture {
+  width: 1170px;
+    /*outline: 2px solid blue;*/
+    margin-left: auto;
+    margin-right: auto;    
+    }
+
+.team {
+  /*font-style: normal;
+font-weight: 700;*/
+  font-size: 36px;
+  line-height: 1.1667;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+/*Команда*/
+
+.team-section {
+  width: 1170px;
+  /*outline: 2px solid blue;*/
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.team-subtitle {
+  /*font-style: normal;
+font-weight: 700;*/
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+
+.team-text {
+  /*font-style: normal;
+font-weight: 400;*/
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+
+.fone {
+  background-color: var(--background-color);
+}
+
+.team-section {
+  background: var(--button-background-color);
+}
+
+/*Секця роботи*/
+/*Кнопки*/
+/*Шрифт*/
+
+.library {
+  width: 1170px;
+  /*outline: 2px solid blue;*/
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.conteiner-button {
+  width: 1170px;
+  /*outline: 2px solid blue;*/
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.button {
+  font-family: 'Roboto';
+  /*font-style: normal;*/
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.button-order {
+font-family: 'Roboto';
+/*font-style: normal;
+font-weight: 700;*/
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--background-color);
+  background-color: var(--text-active-color);
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+}
+/*Колiр*/
+
+.button {
+  color: var(--text-color);
+  background-color: var(--button-background-color);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 22px
+}
+
+/*Заголовки*/
+
+.subtitle {
+  /*font-style: normal;
+font-weight: 700;*/
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+
+/*Категорii*/
+
+.text {
+  /*font-style: normal;
+font-weight: 400;*/
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--text-title-color);
+}
+
+/*Футер*/
+
+footer {
+  background-color: var(--footer-background-color);
+}
+
+.footer {
+  width: 1600px;
+  /*outline: 2px solid blue;*/
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+/*Адреса*/
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+.connect {
+  /*font-family: 'Roboto';*/
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/*Hover*/
+
+.header-link:hover,
+.connect-link:hover,
+.connect:hover,
+.address:hover {
+  color: var(--text-active-color);
+}
+
+.header-link-current:hover {
+  color: var(--text-color);
+}
+
+.button:hover {
+  color: var(--background-color);
+  background-color: var(--text-active-color);
+}
+
+.button-order:hover {
+  color: var(--text-color);
+  border: none;
+}
+
+/*Focus*/
+
+.header-link:focus,
+.connect-link:focus,
+.connect:focus {
+  color: var(--text-active-color);
+}
+
+.header-link-current:focus {
+  color: var(--text-color);
+}
+
+.button:hover {
+  color: var(--background-color);
+  background-color: var(--text-active-color);
+}
+
+.button-order:focus {
+  color: var(--text-color);
+  border: none;
+}
+
+/*Active*/
+
+.header-link:active,
+.button:active {
+  color: var(--text-color);
+}
+
+.button-order:active {
+  color: var(--background-color);
+}
